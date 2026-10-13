@@ -1,0 +1,52 @@
+[workspace]
+channels = ["conda-forge", "bioconda"]
+name = "kieu-ngoc-quyet-lab"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+fastp = "*"
+bwa = "*"
+samtools = "*"
+gatk4 = "*"
+bcftools = "*"
+snpeff = "*"
+snpsift = "*"
+t1k = "*"
+seqkit = "*"
+optitype = "*"
+delly = "*"
+dicey = "*"
+tracy = "*"
+cnvkit = "*"
+mosdepth = "*"
+openjdk = ">=21"
+jq = "*"
+go-yq = "*"
+pymol-open-source = "*"
+r-base = "*"
+r-cowplot = "*"
+r-ggforce = "*"
+python = "*"
+pyyaml = "*"
+pandas = "*"
+xlsxwriter = "*"
+seaborn = "*"
+cyvcf2 = "*"
+"ruamel.yaml" = "*"
+jupyterlab = "*"
+jupyter = "*"
+r-irkernel = "*"
+numpy = "*"
+ipykernel = "*"
+r-ggplot2 = "*"
+r-scales = "*"
+r-gtable = "*"
+r-argparse = "*"
+r-ggrepel = "*"
+r-gggenes = "*"
+
+[environments]
+kieu-ngoc-quyet-lab = []
