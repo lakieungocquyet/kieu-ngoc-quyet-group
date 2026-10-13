@@ -34,7 +34,7 @@ pixi add --no-install \
 pixi install -e kieu-ngoc-quyet-group
 # Use command "pixi shell -e kieu-ngoc-quyet-group" to activate "kieu-ngoc-quyet-group" environment.
 
-"$SCRIPT_DIR_PATH/.pixi/envs/kieu-ngoc-quyet-group/bin/python3" ipykernel install --user --name=ip --display-name "Python3 kernel"
+"$SCRIPT_DIR_PATH/.pixi/envs/kieu-ngoc-quyet-group/bin/python3" -m ipykernel install --user --name=ip --display-name "Python3 kernel"
 
 "$SCRIPT_DIR_PATH/.pixi/envs/kieu-ngoc-quyet-group/bin/Rscript" -e "IRkernel::installspec(name = 'ir', displayname = 'R kernel')"
 jupyter kernelspec list
